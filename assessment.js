@@ -39,7 +39,7 @@ var responseCreator = function(param){
   if(param == "green"){
     return "Green is ok.";
   } else if(param == "red"){
-    return "I Heat Red!";
+    return "I Heart Red!";
   } else {
     return "What is your favorite color?";
   }
