@@ -12,11 +12,11 @@ var lovesCode = true;
 
 // #4 Using the previously created variables, create a new variable called 'me' that uses the myName and faveNum varible to create a sentence like this 'My name is Bryan and my favorite number is 3'
 
-var me = "my name is " + myName + " and my favorite number is " + faveNum;
+var me = "My name is " + myName + " and my favorite number is " + faveNum;
 
 // #5 Using the previously created faveNum variable, create a new variable called 'trueFaveNum'. *trueFaveNum* should equal true when comparing faveNum to your favorite number.v // HINT: Use a comparison operator
 
-var trueFaveNum = faveNum === trueFaveNum;
+var trueFaveNum = faveNum == trueFaveNum;
 
 // #6 Create a new variable called notHakeem. Using the previously created myName variable, test that your name DOES NOT equal the string 'Hakeem Olajuwon'. If your name does happen to be Hakeem Olajuwon, test against 'Karl Malone'
 
@@ -36,10 +36,10 @@ if(age >= 16){
 var colorResponse;
 
 var responseCreator = function(param){
-  if(param == "greem"){
+  if(param == "green"){
     return "Green is ok.";
   } else if(param == "red"){
-    return "I Love Red!";
+    return "I Heat Red!";
   } else {
     return "What is your favorite color?";
   }
